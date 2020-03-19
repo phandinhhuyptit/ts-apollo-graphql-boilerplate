@@ -1,0 +1,9 @@
+apps:
+  - script: ./dist/index.js
+    name: 'datalake-service'
+    watch: false
+    exec_mode: fork_mode
+    env:
+      NODE_ENV: production
+    env_production:
+      NODE_ENV: production
